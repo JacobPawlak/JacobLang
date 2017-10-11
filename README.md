@@ -4,6 +4,5 @@
 ### October 10th, 2017
 After making a lexical and syntactic analyzer for my Compilers class, I wanted to make one alongside our class projects for my own enjoyment. The langugae is called JacobLang, and I am goiong to try to make it a fusion of Scheme and some Branching language (For class we have 'Branch441'). 
 
-I really like this compilers stuff, I hope JacobLang gets picked up by Oracle soon../
 
 ###
