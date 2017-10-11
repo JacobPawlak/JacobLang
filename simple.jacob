@@ -1,0 +1,33 @@
+#Jacob Pawlak
+#This is a comment
+#This is JacobLang syntax
+#Here you go Ryan
+
+define: ((add a, b)
+  (display a,b)
+  (display (+ a, b))
+  (display a, "+", b, "=", (+ a, b))
+  (return (+ a, b)))
+
+#output should look like
+#   a b
+#   a+b (evaluated of course)
+#   a + b = a+b
+  
+define: ( (sub a, b)
+  (display a,b)
+  (display (- a, b))
+  (display a, '-', b, '=', (- a,b))
+  (return (- a, b)))
+  
+#output should look like
+#   a b
+#   a-b (evaluated of course)
+#   a - b = a-b
+  
+define: (name = 'Jacob')
+define: (lang = 'JacobLang')
+
+(display name, 'created', lang)
+#output should look like
+#   Jacob created JacobLang
