@@ -41,3 +41,17 @@ define: ((WhoYouGunnaCall)
 
 #outpust should look like
 #   Ghost Busters!
+
+#display = fijay
+#if = si
+#true = cierto
+#false = falso
+#end = fin
+#for = por
+#while = mientras
+#open = abra
+#close = cierra
+#pass = pasa
+#file = archivo
+#open-file = abra-archivo == open-archivo == abra-file
+
