@@ -42,7 +42,7 @@ define: ((WhoYouGunnaCall)
 #outpust should look like
 #   Ghost Busters!
 
-#display = fijay
+#display = fijar
 #if = si
 #true = cierto
 #false = falso
