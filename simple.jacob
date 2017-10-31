@@ -5,7 +5,8 @@
 
 define: ((add a, b)
   (display a,b)
-  (display (+ a, b))
+  (fijar (+ a, b))
+  #fijar is Spanish for display or show, so they are interchangable
   (display a, "+", b, "=", (+ a, b))
   (return (+ a, b)))
 
@@ -14,9 +15,9 @@ define: ((add a, b)
 #   a+b (evaluated of course)
 #   a + b = a+b
   
-define: ( (sub a, b)
+define: ((sub a, b)
   (display a,b)
-  (display (- a, b))
+  (fijar (- a, b))
   (display a, '-', b, '=', (- a,b))
   (return (- a, b)))
   
@@ -25,9 +26,18 @@ define: ( (sub a, b)
 #   a-b (evaluated of course)
 #   a - b = a-b
   
-define: (name = 'Jacob')
+define: (nombre = 'Jacob')
 define: (lang = 'JacobLang')
 
-(display name, 'created', lang)
+(display nombre, 'created', lang)
+(fijar nombre, "created", lang)
 #output should look like
 #   Jacob created JacobLang
+
+define: ((WhoYouGunnaCall)
+  (fijar "Ghost Busters!"))
+  
+(WhoYouGunnaCall)
+
+#outpust should look like
+#   Ghost Busters!
